@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/embeddedarm" name="embeddedarm"/>
+  <remote fetch="git://github.com/openembedded" name="oe"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  
+  <default remote="embeddedarm" revision="refs/heads/danny" sync-j="4"/>
+  <default remote="oe" revision="refs/heads/danny" sync-j="4"/>
+  <default remote="yocto" revision="refs/heads/danny" sync-j="4"/>
+  
+  <project groups="default" name="meta-ts" path="poky/meta-ts" revision="HEAD"/>
+  <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="HEAD"/>
+  <project groups="default" name="poky" remote="yocto" revision="HEAD"/>
+</manifest>
