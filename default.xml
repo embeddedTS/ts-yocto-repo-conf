@@ -8,7 +8,7 @@
   <default remote="oe" revision="refs/heads/danny" sync-j="4"/>
   <default remote="yocto" revision="refs/heads/danny" sync-j="4"/>
   
-  <project groups="default" name="meta-ts" path="poky/meta-ts" revision="HEAD"/>
-  <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="HEAD"/>
-  <project groups="default" name="poky" remote="yocto" revision="HEAD"/>
+  <project groups="default" name="meta-ts" path="poky/meta-ts" />
+  <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" />
+  <project groups="default" name="poky" remote="yocto" />
 </manifest>
