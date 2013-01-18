@@ -3,12 +3,14 @@
   <remote fetch="git://github.com/embeddedarm" name="embeddedarm"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/woglinde" name="java"/>
   
   <default remote="embeddedarm" revision="refs/heads/danny" sync-j="4"/>
-  <default remote="oe" revision="refs/heads/danny" sync-j="4"/>
-  <default remote="yocto" revision="refs/heads/danny" sync-j="4"/>
   
   <project groups="default" name="meta-ts" path="poky/meta-ts" />
-  <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" />
-  <project groups="default" name="poky" remote="yocto" />
+  <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="f026e96295da101bb715858bc8705de7e4a33992"/>
+  <project groups="default" name="poky" remote="yocto" revision="47b0864fbd65746558d8186450c182d98bac78ca" />
+  <project groups="default" name="meta-java"  path="poky/meta-java" remote="java" revision="b1fd6ea3f30cc6fc24773b63a4adb3259b28903f" />
+  <project groups="default" name="meta-mono"  path="poky/meta-mono" remote="yocto" revision="adf47f078dbf788a80ff1398a15a4fd5a334d320" />
+
 </manifest>
