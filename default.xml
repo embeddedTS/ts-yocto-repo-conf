@@ -5,9 +5,9 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/woglinde" name="java"/>
   
-  <default remote="embeddedarm" revision="refs/heads/danny" sync-j="4"/>
+  <default remote="embeddedarm" revision="refs/heads/master" sync-j="4"/>
   
-  <project groups="default" name="meta-ts" path="poky/meta-ts" revision="fa66b3d49c69be4e9fbc11cb3589c0fae97781e0" />
+  <project groups="default" name="meta-ts" path="poky/meta-ts" />
   <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="c02834a7cc5fda525c7ebeec545625233bab4cb5"/>
   <project groups="default" name="poky" remote="yocto" revision="45f95b5f3381097672dd43077f267aa716a02b4c" />
   <project groups="default" name="meta-java"  path="poky/meta-java" remote="java" revision="f5f49c8fd63d6d38938972841759006c69afcc15" />
