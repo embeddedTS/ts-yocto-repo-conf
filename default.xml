@@ -7,7 +7,7 @@
 
   <default remote="embeddedarm" revision="refs/heads/danny" sync-j="4"/>
 
-  <project groups="default" name="meta-ts" path="poky/meta-ts" revision="6a6e7ba07e8dde8449c80f299aea2e10ccae1282" />
+  <project groups="default" name="meta-ts" path="poky/meta-ts" revision="fa07210e3a7916c22ee77403c4a61c28db6bc836" />
   <project groups="default" name="meta-oe" path="poky/meta-openembedded" remote="oe" revision="c02834a7cc5fda525c7ebeec545625233bab4cb5"/>
   <project groups="default" name="poky" remote="yocto" revision="45f95b5f3381097672dd43077f267aa716a02b4c" />
   <project groups="default" name="meta-java"  path="poky/meta-java" remote="java" revision="f5f49c8fd63d6d38938972841759006c69afcc15" />
